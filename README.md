@@ -37,7 +37,10 @@ pip install -r requirements.txt
 ## To do about coding
 
 - [ ] Clean the data
-- [ ] Choose the algorithm
+- [ ] remove `user_id` (we don't need because that will not make helpful)
+- [ ] Combine the `artistname` (remove spaces)
+- [ ] Combine all columns to form a single column
+- [x] Choose the algorithm
 
 ## PROJECT SECTIONS
 
