@@ -6,11 +6,9 @@ Building the recommendation system for Spotify using Scikit-Learn
 
 I also ignored `csv` files, because it has over 1 gb.
 
-
 ## Data
 
 https://www.kaggle.com/datasets/andrewmvd/spotify-playlists?select=spotify_dataset.csv
-
 
 ## Requirements
 
@@ -28,7 +26,6 @@ pip install -r requirements.txt
 
 - [ ] need to write about `Data` section on the `README` file.
 - [ ] need some resource to reference
-
 
 ## To do about coding
 
@@ -48,5 +45,5 @@ pip install -r requirements.txt
 
 *(Daily updates)*
 
-* 20 Jan 2023 - Started this project by [https://github.com/idontcalculate](@tensorcist)
-  and [https://github.com/iukt](@iukt).
+* 20 Jan 2023 - Started this project by [@tensorcist](https://github.com/idontcalculate)
+  and [@iukt](https://github.com/iukt).
