@@ -7,6 +7,7 @@ Building the recommendation system for Spotify using Scikit-Learn
 I also ignored `csv` files, because it has over 1 gb.
 
 ## PROJECT SECTIONS
+--
 
 1. DATA IMPORT
 
