@@ -22,6 +22,13 @@ https://www.kaggle.com/datasets/andrewmvd/spotify-playlists?select=spotify_datas
 pip install -r requirements.txt
 ```
 
+## Algorithms
+
+- [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) -
+  Convert a collection of text documents to a matrix of token counts.
+- [cosine_similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) -
+  Compute cosine similarity between samples in X and Y.
+
 ## To do about documentation & blog
 
 - [ ] need to write about `Data` section on the `README` file.
@@ -40,6 +47,10 @@ pip install -r requirements.txt
 4. CLUSTER USERS INTO GENRE PREFERENCES
 5. ARTIST RECOMMENDATION
 6. CONCLUSION
+
+## Resources
+
+- [How to Build a Recommendation System in Python?](https://365datascience.com/tutorials/how-to-build-recommendation-system-in-python/)
 
 ## Logs
 
