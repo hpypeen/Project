@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ## To do about documentation & blog
 
 - [ ] need to write about `Data` section on the `README` file.
-
+- [ ] need some resource to reference
 
 
 ## To do about coding
