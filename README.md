@@ -14,6 +14,7 @@ https://www.kaggle.com/datasets/andrewmvd/spotify-playlists?select=spotify_datas
 
 * Pandas
 * NumPy
+* Matplotlib
 * Scikit-Learn
 
 ## Install
@@ -29,35 +30,11 @@ pip install -r requirements.txt
 - [cosine_similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) -
   Compute cosine similarity between samples in X and Y.
 
-## To do about documentation & blog
-
-- [ ] need to write about `Data` section on the `README` file.
-- [ ] need some resource to reference
-
-## To do about coding
-
-- [ ] Clean the data
-- [ ] remove `user_id` (we don't need because that will not make helpful)
-- [ ] Combine the `artistname` (remove spaces)
-- [ ] Combine all columns to form a single column
-- [x] Choose the algorithm
-
-## PROJECT SECTIONS
-
-1. DATA IMPORT
-2. DATA DESCRIPTION
-3. MOST POPULAR TRACKS
-4. CLUSTER USERS INTO GENRE PREFERENCES
-5. ARTIST RECOMMENDATION
-6. CONCLUSION
 
 ## Resources
 
 - [How to Build a Recommendation System in Python?](https://365datascience.com/tutorials/how-to-build-recommendation-system-in-python/)
 
-## Logs
+## Contact me
 
-*(Daily updates)*
-
-* 20 Jan 2023 - Started this project by [@tensorcist](https://github.com/idontcalculate)
-  and [@iukt](https://github.com/iukt).
+If you have any problem and want to contact, [mail me](mailto:iukt@tuta.io)
