@@ -2,13 +2,9 @@
 
 Building the recommendation system for Spotify using Scikit-Learn
 
-## Messages
-
-I also ignored `csv` files, because it has over 1 gb.
-
 ## Data
 
-https://www.kaggle.com/datasets/andrewmvd/spotify-playlists?select=spotify_dataset.csv
+https://www.kaggle.com/datasets/rakkesharv/spotify-top-10000-streamed-songs
 
 ## Requirements
 
@@ -37,4 +33,4 @@ pip install -r requirements.txt
 
 ## Contact me
 
-If you have any problem and want to contact, [mail me](mailto:iukt@tuta.io)
+If you have any problem and want to contact, [mail me](mailto:sithukhantai@gmail.com)
