@@ -1,6 +1,12 @@
-# spotify-recommendation-system
+# Music recommendation system with Scikit-Learn
 
-Building the recommendation system for Spotify using Scikit-Learn
+Code for Music recommendation system with Scikit-Learn blog. To read the full blog post about this, [read here](https://sithukhantai.medium.com/music-recommendation-system-with-scikit-learn-30f4d07c60b3)
+
+![](images/recommender-cover.png)
+
+If you are a user of any social media or any websites, I am sure you could be caught in the tracking net of one of them. Do you wonder how those systems are made? I mean, the recommendation system can make you obsess with your time. Or if you are curious about how recommendation systems are made, let’s create a simple top ten music recommendation system with Scikit-Learn.
+
+There are three types of systems. Collaborative filtering and Content-based filtering are the two main systems, and Hybrid recommendation is the combination of those two systems. Most recommendation systems now use the hybrid one.
 
 ## Data
 
@@ -9,27 +15,27 @@ https://www.kaggle.com/datasets/rakkesharv/spotify-top-10000-streamed-songs
 ## Requirements
 
 * Pandas
-* NumPy
-* Matplotlib
 * Scikit-Learn
 
-## Install
+## CountVectorizer
 
-```commandline
-pip install -r requirements.txt
-```
+CountVectorizer converts a collection of documents into a matrix of word counts. Let’s see how CountVectorizer works.
 
-## Algorithms
+Here is a sentence: “Nikola Tesla invented the alternating current”. CountVectorizer will convert that sentence into something like this:
 
-- [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) -
-  Convert a collection of text documents to a matrix of token counts.
-- [cosine_similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) -
-  Compute cosine similarity between samples in X and Y.
+![](images/count-vectorizer-1.png)
 
+You can see that CountVectorizer counts the word frequency. If there are more than two `the` in that sentence, you will see `2` instead of `1`.
 
-## Resources
+To be clear, let’s add one more sentence to that same vector. “Thomas Edison invented the direct current”
 
-- [How to Build a Recommendation System in Python?](https://365datascience.com/tutorials/how-to-build-recommendation-system-in-python/)
+![](images/count-vectorizer-2.png)
+
+It is saying it will create a new column with a word if the new inserted word in the new sentence doesn’t exist. The limitation of CountVectorizer is that it also counts less important words like a , the , and . But CountVectorizer is suitable for our project. We don’t need to use it in complete sentencesPython codes
+
+## Final result
+
+![](images/recommender-final-result.gif)
 
 ## Contact me
 
