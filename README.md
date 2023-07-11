@@ -1,4 +1,4 @@
-# Music recommendation system with Scikit-Learn
+# Music recommendation system
 
 Code for Music recommendation system with Scikit-Learn blog. To read the full blog post about this, [read here](https://sithukhantai.medium.com/music-recommendation-system-with-scikit-learn-30f4d07c60b3)
 
